@@ -28,18 +28,22 @@ switch (birthMonth) {
     case 'November':
     case 'February':
         console.log("You were born in Winter!");
+        break;
     case 'March':
     case 'April':
     case 'May':
         console.log("You were born in Spring!");
+        break;
     case 'June':
     case 'July':
     case 'August':
         console.log("You were born in Summer!");
+        break;
     case 'September':
     case 'October':
         console.log("You were born in Fall!");
-        Default:
+        break;
+    Default:
         console.log("Were you born?");
 }
 
@@ -63,7 +67,7 @@ switch (typeId) {
         type = "Long sleeve";
     case "04":
         type = "Sweat Shirt";
-        Default:
+     Default:
         type = "other";
 }
 
